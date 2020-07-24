@@ -22141,6 +22141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  state: 0
 --- !u!95 &285059574
 Animator:
   serializedVersion: 3
