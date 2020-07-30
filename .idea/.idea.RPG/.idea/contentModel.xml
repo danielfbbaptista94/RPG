@@ -8,7 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CameraMovement.cs" t="Include" />
+          <e p="PlayerAttackController.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="PotController.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
