@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
         state = PlayerState.walk;
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        
+        _animator.SetFloat("moveX", 0);
+        _animator.SetFloat("moveY", -1);
     }
 
     // Update is called once per frame
@@ -45,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
+        _vector3.Normalize();
         _rigidbody2D.MovePosition(transform.position + (_vector3 * speed * Time.deltaTime));
     }
 
@@ -65,13 +69,13 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator AttackCoroutine()
     {
-        Debug.Log("ENTROU");
         _animator.SetBool("isAttacking", true);
         state = PlayerState.attack;
-
-        yield return null;
+        yield return null; // WAIT 1 FRAME
+        
         _animator.SetBool("isAttacking", false);
         yield return new WaitForSeconds(.3f);
+        
         state = PlayerState.walk;
     }
 }
