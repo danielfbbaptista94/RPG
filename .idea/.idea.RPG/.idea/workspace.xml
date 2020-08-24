@@ -5,8 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/gfx/log.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/gfx/log.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Log.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Log.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerAttackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PotController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sprites/gfx/character.png.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KnockbackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sprites/gfx/log.png.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -35,6 +36,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAttackController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knockback.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KnockbackEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KnockbackController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Log.cs" />
       </list>
     </option>
@@ -93,7 +97,8 @@
       <workItem from="1595545687932" duration="2373000" />
       <workItem from="1596067919433" duration="827000" />
       <workItem from="1596314362989" duration="1726000" />
-      <workItem from="1597943681333" duration="2506000" />
+      <workItem from="1597943681333" duration="3042000" />
+      <workItem from="1598015866259" duration="3277000" />
     </task>
     <servers />
   </component>

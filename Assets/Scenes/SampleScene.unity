@@ -22010,6 +22010,7 @@ GameObject:
   - component: {fileID: 285059571}
   - component: {fileID: 285059573}
   - component: {fileID: 285059574}
+  - component: {fileID: 285059575}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -22165,6 +22166,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &285059575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285059568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f081c3fc4722440b2e8d8b7f90b9fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 8
+  timer: 0.2
 --- !u!1 &428827173
 GameObject:
   m_ObjectHideFlags: 0
@@ -22181,7 +22196,7 @@ GameObject:
   - component: {fileID: 428827179}
   m_Layer: 0
   m_Name: Log
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22304,7 +22319,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428827173}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -22314,7 +22329,7 @@ Rigidbody2D:
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!114 &428827179
