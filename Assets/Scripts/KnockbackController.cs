@@ -13,11 +13,11 @@ public class KnockbackController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("ENTROU");
             Rigidbody2D _rigidbody2D = other.GetComponent<Rigidbody2D>();
 
             if (_rigidbody2D != null)
             {
+                _rigidbody2D.GetComponent<EnemyController>().state = EnemyState.stagger;
                 StartCoroutine(KnockCorrotine(_rigidbody2D));
             }
         }
@@ -32,6 +32,7 @@ public class KnockbackController : MonoBehaviour
         yield return new WaitForSeconds(timer);
         
         r2D.velocity = new Vector2();
+        r2D.GetComponent<EnemyController>().state = EnemyState.idle;
     }
     
 }

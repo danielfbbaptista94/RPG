@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="365dd627-e970-48c5-a33e-fc1efbc9dfc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KnockbackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KnockbackController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Log.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Log.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +33,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PotController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAttackController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Knockback.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KnockbackEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KnockbackController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAttackController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Log.cs" />
       </list>
     </option>
@@ -99,6 +99,8 @@
       <workItem from="1596314362989" duration="1726000" />
       <workItem from="1597943681333" duration="3042000" />
       <workItem from="1598015866259" duration="3277000" />
+      <workItem from="1598461740725" duration="3339000" />
+      <workItem from="1598534442135" duration="13315000" />
     </task>
     <servers />
   </component>
@@ -122,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
