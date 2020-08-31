@@ -13,15 +13,25 @@ public enum EnemyState
 public class EnemyController : MonoBehaviour
 {
     public EnemyState state;
-    public int health;
+    public FloatValue maxHealth;
+    public float health;
     public string enemyName;
     public int baseAttack;
     public float speed;
     
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        health = maxHealth.initialValue;
+    }
+    
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public void StartAnimation(Animator anim, bool valor, bool directionValor, Vector2 direction)

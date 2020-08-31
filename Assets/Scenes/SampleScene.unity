@@ -22358,11 +22358,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
+  maxHealth: {fileID: 11400000, guid: c480d72a6186c544da66ed4876ba46da, type: 2}
   health: 2
   enemyName: Log
   baseAttack: 1
   speed: 1.5
-  target: {fileID: 0}
   homePosition: {fileID: 0}
   chaseRadius: 4
   attackRadius: 1
@@ -22463,11 +22463,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 431525319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f081c3fc4722440b2e8d8b7f90b9fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bf4b6015df147f4687788e81be74b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 8
   timer: 0.2
+  damage: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -22637,11 +22638,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 680520930}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f081c3fc4722440b2e8d8b7f90b9fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bf4b6015df147f4687788e81be74b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 8
   timer: 0.2
+  damage: 1
 --- !u!1 &972013473
 GameObject:
   m_ObjectHideFlags: 0
@@ -22758,11 +22760,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1065312387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f081c3fc4722440b2e8d8b7f90b9fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bf4b6015df147f4687788e81be74b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 8
   timer: 0.2
+  damage: 1
 --- !u!1 &1610010227
 GameObject:
   m_ObjectHideFlags: 0
@@ -28216,8 +28219,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1831762263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f081c3fc4722440b2e8d8b7f90b9fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bf4b6015df147f4687788e81be74b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 8
   timer: 0.2
+  damage: 1

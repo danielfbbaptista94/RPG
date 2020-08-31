@@ -14,6 +14,9 @@
           <e p="PlayerAttackController.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PotController.cs" t="Include" />
+          <e p="ScriptableObjects" t="Include">
+            <e p="FloatValue.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

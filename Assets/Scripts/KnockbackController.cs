@@ -8,6 +8,7 @@ public class KnockbackController : MonoBehaviour
 {
     public float thrust;
     public float timer;
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
