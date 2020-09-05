@@ -16,7 +16,9 @@
           <e p="PotController.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="FloatValue.cs" t="Include" />
+            <e p="Signal.cs" t="Include" />
           </e>
+          <e p="SignalListener.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
